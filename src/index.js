@@ -30,8 +30,18 @@ import ReactDOM from 'react-dom';
 import Badge from './components/Badge';
 //import "bootstrap/dist/css/bootstrap.css";
 import './global.css';
+import BadgeNew from './pages/BadgeNew';
 
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge />, container);
+// ReactDOM.render(
+//     <Badge 
+//         firstName="chezzandyto"
+//         lastName="Toapanta"
+//         avatarUrl="https://www.gravatar.com/avatar?d=identicon"
+//         jobTitle="Frontend engineer"
+//         twitter="spagus"
+//     />
+//     , container);
+ReactDOM.render(<BadgeNew/>, container);
