@@ -1,6 +1,5 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 // const jsx = <h1>Hello, Platzi Badges!</h1>;
 // const element = React.createElement(
@@ -27,21 +26,22 @@ import ReactDOM from 'react-dom';
 //   React.createElement('p', {}, 'Soy ingeniero de la web.')
 // );
 
-import Badge from './components/Badge';
-//import "bootstrap/dist/css/bootstrap.css";
-import './global.css';
-import BadgeNew from './pages/BadgeNew';
+import Badge from "./components/Badge";
+import "bootstrap/dist/css/bootstrap.css";
+import "./global.css";
+import BadgeNew from "./pages/BadgeNew";
 
-const container = document.getElementById('app');
+const container = document.getElementById("app");
 
-// ReactDOM.render(__qué__, __dónde__);
+//ReactDOM.render(__qué__, __dónde__);
 // ReactDOM.render(
-//     <Badge 
-//         firstName="chezzandyto"
-//         lastName="Toapanta"
-//         avatarUrl="https://www.gravatar.com/avatar?d=identicon"
-//         jobTitle="Frontend engineer"
-//         twitter="spagus"
-//     />
-//     , container);
-ReactDOM.render(<BadgeNew/>, container);
+//   <Badge
+//     firstName="chezzandyto"
+//     lastName="Toapanta"
+//     avatarUrl="https://www.gravatar.com/avatar?d=identicon"
+//     jobTitle="Frontend engineer"
+//     twitter="spagus"
+//   />,
+//   container
+// );
+ReactDOM.render(<BadgeNew />, container);
